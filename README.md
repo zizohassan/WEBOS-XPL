@@ -30,7 +30,7 @@ WEBOS-XPL operates as a high-fidelity bridge between standard networking protoco
 ### Installation
 Clone the repository and initialize the dependency matrix:
 ```bash
-go get github.com/gorilla/websocket
+go mod tidy
 ```
 
 ### Initial Handshake
